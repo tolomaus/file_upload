@@ -24,7 +24,7 @@ describe AppVersionsController do
   # AppVersion. As you add validations to AppVersion, be sure to
   # update the return value of this method accordingly.
   def valid_attributes
-    {}
+    {:version => "1.0.0"}
   end
 
   describe "GET index" do

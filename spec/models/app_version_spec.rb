@@ -9,5 +9,6 @@ describe AppVersion do
   end
   it "is not valid without a version" do
     @app_version.version = nil
+    @app_version.should_not be_valid
   end
 end
